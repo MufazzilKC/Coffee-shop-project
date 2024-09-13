@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #eae8e0; 
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9E4BC; 
+    border-radius: 10px;
+    margin: 0 30px;
+    margin-top: 30px;
+    box-shadow: 2px 2px black; 
+  }
+  
+  #navbar li {
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black; 
+  }
+  
+  #navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  #left-side {
+    margin-left: 5%; 
+    font-family: "Dancing Script", cursive; 
+  }
+  
+  #right-side {
+    margin-right: 25px;
+    font-family: "Dancing Script", cursive; 
+  }
+  
+  #title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Dancing Script", cursive; 
+  }
+  
+  #intro-paragraph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Work Sans", sans-serif; 
+    font-weight: 400;
+  }
+  
+  #drinks-menu, #pastries-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px; 
+  }
+  
+  #drinks-menu img, #pastries-menu img {
+    max-width: 20%;
+    height: auto; 
+    margin: 0 30px;
+    border-radius: 5px; 
+  }
+  
+  #drinks-text, #price-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Dancing Script", cursive; 
+    margin-right:15px;
+  }
+  
+  #price-text {
+    font-family: "Work Sans", sans-serif; 
+    font-weight: 400;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: black; 
+  }
+  
+  #footer-bar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black; 
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 80px; 
+    border-radius: 8px; 
+  }
+  
+  #footer-bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Work Sans", sans-serif; 
+    font-weight: 400;
+  }
